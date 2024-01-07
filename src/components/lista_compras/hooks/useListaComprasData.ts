@@ -1,5 +1,5 @@
 import axios, { AxiosPromise } from "axios";
-import { ListaComprasData } from "../components/interface/lista-compras-data";
+import { ListaComprasData } from "../interface/lista_compras_data";
 import { useQuery } from "@tanstack/react-query";
 
 const API_URL = "http://localhost:8080";
